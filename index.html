@@ -10,8 +10,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-[#FFFFFF]">
-    <header class="">
+<body class="">
+    <header class="bg-[#FFFFFF]">
         <nav class="max-w-6xl m-auto pt-12 flex justify-between items-center max-sm:justify-around ">
             <div class="flex items-center text-[#212121]">
                 <i class="fa-solid fa-arrow-right bg-[#50d71e] rounded-full p-2 -rotate-45"></i>
@@ -45,12 +45,51 @@
             <div class="flex flex-col items-center justify-center">
                 <h1 class="text-6xl text-[#212121] mb-5 text-center font-extrabold max-sm:text-3xl mx-2 ">A barn house of this design has a <br>striking appearance</h1>
                 <p class="text-[#494949] text-base text-center mb-5 max-sm:mx-2">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
-                <button class="py-3 px-6 bg-[#ABEF5F80] rounded-3xl m-auto text-[#212121] font-bold">View Details  <i class="fa-solid fa-arrow-right bg-[#50d71e] rounded-full p-2 -rotate-45 ml-2"></i></button>
+                <button class="py-3 px-6 bg-[#ABEF5F80] rounded-3xl m-auto text-[#212121] font-bold mb-16">View Details  <i class="fa-solid fa-arrow-right bg-[#50d71e] rounded-full p-2 -rotate-45 ml-2"></i></button>
             </div>
         </div>
     </header>
 
-    <main></main>
+    <main class="bg-[#f4f4f4] pt-20">
+        <!-- Abouth us section -->
+        <section class="max-w-6xl m-auto flex justify-between items-center max-sm:flex-col relative">
+            <div class="absolute -top-14 -left-14 border-dashed border-2 border-[#c9c9c9] py-4 max-sm:hidden">
+                <img src="assets/Vector.png" alt="">
+            </div>
+            <div class="mr-5 max-sm:ml-5">
+                <div class="flex items-center justify-center bg-[#FFFFFF] max-w-32 rounded-3xl p-1 max-sm:m-auto">
+                    <i class="fa-solid fa-arrow-right text-[#494949]"></i>
+                    <h4 class="text-[#494949] text-base font-bold ml-2">About Us</h4>
+                </div>
+                <h1 class="text-[#212121] text-4xl font-bold my-9 max-sm:text-center">We design thoughtful,<br> liveable spaces</h1>
+                <p class="text-[#494949] text-base font-medium mb-7 max-sm:text-center">The barn house captivates with its blend of rustic charm and <br>
+                    modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <!-- card -->
+                 <div class="flex justify-start items-center bg-[#FFFFFF] py-4 px-4 rounded-2xl">
+                    <div>
+                        <img src="assets/commercial.png" alt="">
+                    </div>
+                    <div class="ml-4">
+                        <h2 class="text-[#494949] text-xl font-extrabold mb-3 ">Commercial</h2>
+                        <p class="text-[#737373] text-base font-medium ">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                    </div>
+                 </div>
+                 <div class="flex justify-start items-center bg-[#FFFFFF] py-4 px-4 rounded-2xl mt-6">
+                    <div>
+                        <img src="assets/commercial.png" alt="">
+                    </div>
+                    <div class="ml-4">
+                        <h2 class="text-[#494949] text-xl font-extrabold mb-3">Commercial</h2>
+                        <p class="text-[#737373] text-base font-medium">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                    </div>
+                 </div>
+            </div>
+
+            <div class="max-sm:m-5">
+                <img src="assets/Rectangle.png"  alt="">
+            </div>
+        </section>
+    </main>
 
     <footer></footer>
 </body>
